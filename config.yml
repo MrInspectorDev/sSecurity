@@ -1,0 +1,7 @@
+Joins: 1
+Blacklist: BannedGuy
+BlockedWords: Shit
+DisableBreak: false
+DisablePlace: false
+DisableEXP: false
+DisableExplode: true
