@@ -4,7 +4,7 @@ It doesn't get more simpler than sSecurity, with new features being added every 
 
 Here are some of the features, notice how I said some, not all, since they're are a lot of features coming!
 
-* Anti Combat Log
+* Anti Combat Logging
 * Disable griefing
 * Block words
 * Blacklist players
