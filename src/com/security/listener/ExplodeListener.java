@@ -18,16 +18,15 @@ public class ExplodeListener implements Listener {
 	
 	@EventHandler
 	public void onExplode(EntityExplodeEvent e){
-		plugin.getConfig().getBoolean("Disable");
+		plugin.getConfig().getBoolean("DisableExplosion");
 
-		if(plugin.getConfig().getBoolean("Disable") == true) {
+		if(plugin.getConfig().getBoolean("DisableExplosion") == true) {
 			e.setCancelled(true);
 			Bukkit.broadcastMessage(ChatColor.RED + "Creeper explosions has been disabled!");
 		}
 		
-		if(plugin.getConfig().getBoolean("Disable") == false) {
+		if(plugin.getConfig().getBoolean("DisableExplosion") == false) {
 			e.setCancelled(false);
-			Bukkit.broadcastMessage(ChatColor.GREEN + "Creeper explosions has been enabled!");
 		}
 	}
 	
