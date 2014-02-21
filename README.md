@@ -11,4 +11,4 @@ Here are some of the features, notice how I said some, not all, since they're ar
 * Disable EXP
 * Get the players IP when they join
 * Cancel creeper explosions
-* MORE!
+* MORE TO COME, stay tuned!
